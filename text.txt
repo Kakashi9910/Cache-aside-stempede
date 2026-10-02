@@ -1,0 +1,12 @@
+docker run -d --name redis-cache -p 6379:6379 redis
+docker exec -it redis-cache redis-cli
+npm install express ioredis 
+npm install @prisma/client install -D prisma
+docker start redis-cache
+ 
+
+
+create the prisma/schema.prisma file
+
+GET user:1
+KEYS *
